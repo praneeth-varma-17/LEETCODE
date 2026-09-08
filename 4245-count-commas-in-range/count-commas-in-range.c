@@ -1,0 +1,8 @@
+int countCommas(int n) {
+    if(n < 1000){
+        return 0;
+    }
+    int x = n - 1000;
+
+    return x + 1;
+}
